@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @post.title %></h1>
+<%= link_to 'Edit', edit_post_path(@post) %>
+
+<hr />
+
+<%= sanitize @post.body %>
+

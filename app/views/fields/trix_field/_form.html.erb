@@ -1,0 +1,7 @@
+<div class="field-unit__label">
+  <%= f.label field.attribute %>
+</div>
+<div class="field-unit__field">
+  <%= f.hidden_field field.attribute, id: field.attribute %>
+  <trix-editor input="<%= field.attribute %>"></trix-editor>
+</div>
